@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pedroh0569.github.io/doki-doki-tops-comunity/sitemap.xml
