@@ -16,14 +16,11 @@
     <!-- Google Search Console -->
     <meta name="google-site-verification" content="eWYkP0u27YWYzwSxFRDMcIEEnJrfb0Logl3bR-LdyIc" />
 
-    <!-- Open Graph -->
+    <!-- SEO Avançado -->
     <meta property="og:title" content="Doki Doki: Top's Comunity – Traduções DDLC PT-BR" />
     <meta property="og:description" content="Comunidade brasileira focada em traduções PT-BR e mods de Doki Doki Literature Club." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:url" content="https://pedroh0569.github.io/doki-doki-tops-comunity/" />
-
-    <!-- IMPORTANTE: sem noindex, sem robots bloqueando -->
 
     <style>
         body {
@@ -69,11 +66,15 @@
         }
     </style>
 
-    <!-- Redirecionamento amigável ao Google (não bloqueia indexação) -->
+    <!-- Redirecionamento seguro que NÃO afeta o Google -->
     <script>
+    const isBot = /bot|crawl|spider|slurp|bingpreview|facebookexternalhit/i.test(navigator.userAgent);
+
+    if (!isBot) {
         setTimeout(() => {
             window.location.href = "https://discord.gg/Pe39AdzUcg";
         }, 3000);
+    }
     </script>
 
 </head>
